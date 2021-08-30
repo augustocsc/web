@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:arial;font-style:itallic;">
+<h1>the gomes group @ cmu</h1>
+<p>chemical {designers | engineers | data scientists} crunching bits into matter since January 2022</p>
+</body>
+</html>
