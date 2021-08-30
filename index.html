@@ -13,20 +13,32 @@
         background-color: #f5f6fa;
         color: #2f3640;
       }
+	  h1{
+	    font-size:3rem;
+	  }
       .title{
         font-weight: 500;
         text-align: left;
 		font-style: italic;
       }
-	  a{
+	  a, a:active{
 	    color: #ff3838;
 		font-style: italic;
 		text-decoration:none;
 	  }
+	  a:hover{
+	    color: #ff4d4d;
+		font-style: italic;
+		text-decoration:none;
+	  }
+	  #main-links{
+	    font-size: 1.2rem;
+	  }
 	  .division{
-	    border: 3px solid #ff3838;
+	    #border: 3px solid #ff3838;
+		border: 3px solid grey;
 		margin: 0px 0px;
-		/*background-image: linear-gradient(to right, red, transparent); */
+		#background-image: linear-gradient(to right, red, transparent); 
 	  }	
     </style>
   </head>
@@ -36,8 +48,8 @@
         <h1 class='title'>the gomes group @ CMU</h1>
 
       <div class="row">
-        <p class='title'>chemical {designers | engineers | data scientists} crunching bits into matter since January 2022</p>
-		<p>
+        <p class="title">chemical {designers | engineers | data scientists} crunching bits into matter since January 2022</p>
+		<p id="main-links">
             <a href="https://gabegomes.com/">gabe</a>&nbsp|
             <a href="https://github.com/gomesgroup">code</a>&nbsp|
 			<a href="#papers">papers</a>&nbsp|
