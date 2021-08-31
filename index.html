@@ -35,7 +35,7 @@
 		transition: 0.5s;
 	  }
 	  a:hover{
-	    color: #d63031;
+	    color: #cc002b;
 		#font-style: italic;
 		text-decoration:none;
 		text-shadow: 0px 0px 10px rgba(150, 150, 150, 1);
@@ -61,8 +61,12 @@
 		padding:0px;
 	    border: 6px solid lightgrey;
 		overflow: hidden;
-		#-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
-        #box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+		transition-timing-function: linear;
+		transition: 0.5s;
+	  }
+	  #main-img:hover{
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 1); 
+        box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 1);
 	  }
 	  .table-type{
 	    text-align:center;
@@ -92,7 +96,7 @@
 			-webkit-animation-duration: 6s;
 			animation-name: fade;
 			animation-iteration-count: infinite;
-			animation-duration: 6s;
+			animation-duration: 14s;
 		}
 
 		@-webkit-keyframes fade {
@@ -111,19 +115,19 @@
 		}
 
 		#f1 {
-			-webkit-animation-delay: -2s;
+			-webkit-animation-delay: -9s;
 			position: absolute;
 		}
 		#f2 {
-			-webkit-animation-delay: -4s;
-			position: absolute;
-		}
-		#f3 {
 			-webkit-animation-delay: -6s;
 			position: absolute;
 		}
+		#f3 {
+			-webkit-animation-delay: -3s;
+			position: absolute;
+		}
 		#f4 {
-			-webkit-animation-delay: -8s;
+			-webkit-animation-delay: -0s;
 			position: absolute;
 		}
 		.fade{
@@ -142,44 +146,44 @@
 		<p id="main-links">
             {<a href="https://gabegomes.com/">gabe</a>&nbsp|
             <a href="https://github.com/gomesgroup">code</a>&nbsp|
-			<a href="#papers">papers</a>&nbsp|
-            <a href="#presentations">presentations</a>}
+			<a href="#presentations">presentations</a>&nbsp|
+            <a href="#papers">papers</a>}
         </p>
       </div>
 	  
 	  <hr class="division">
 	  
 	  <div class="row">
-	    <div class="col-2 table-type" style="text-align:center">research</div>
-		<div class="col-10">{machine learning | catalysis | reaction design | physical organic chemistry | organic materials}</div>
+	    <div class="col-4 table-type" style="text-align:center">research</div>
+		<div class="col-8">{machine learning | catalysis | reaction design | physical organic chemistry | organic materials}</div>
 	  </div>
 	  
 	  <br/>
 	  
 	  <div class="row">
-	    <div class="col-2 table-type" style="text-align:center">principal investigator</div>
-		<div class="col-10">{Gabe Gomes [<a href='#'>@gabepgomes</a>]}</div>
+	    <div class="col-4 table-type" style="text-align:center">principal investigator</div>
+		<div class="col-8">{Gabe Gomes [<a href='#'>@gabepgomes</a>]}</div>
 	  </div>
 	  
 	  <br/>
 	  
 	  <div class="row">
-	    <div class="col-2 table-type" style="text-align:center">postdocs</div>
-		<div class="col-10">{<a href='#'>you</a>!}</div>
+	    <div class="col-4 table-type" style="text-align:center">postdocs</div>
+		<div class="col-8">{<a href='#'>you</a>!}</div>
 	  </div>
 	  
 	  <br/>
 	  
 	  <div class="row">
-	    <div class="col-2 table-type" style="text-align:center">phds</div>
-		<div class="col-10">{Nicholas Hattrup [<a href='#'>@</a>] | Robert MacKnight [<a href='#'>@</a>] | and <a href='#'>you</a>!}</div>
+	    <div class="col-4 table-type" style="text-align:center">phds</div>
+		<div class="col-8">{Nicholas Hattrup [<a href='#'>@</a>] | Robert Macknight [<a href='#'>@</a>] | and <a href='#'>you</a>!}</div>
 	  </div>
 	  
 	  <br/>
 	  
 	  <div class="row">
-	    <div class="col-2 table-type" style="text-align:center">undergrads</div>
-		<div class="col-10">...</div>
+	    <div class="col-4 table-type" style="text-align:center">undergrads</div>
+		<div class="col-8">...</div>
 	  </div>
 	  
 	  <br/>
@@ -191,7 +195,7 @@
 	  <br/>
 	  
 	  <div id='back-cool'>
-		<img id='f4' class='fade' src="images/p4.png">
+	    <img id='f4' class='fade' src="images/p4.png">
 		<img id='f3' class='fade' src="images/p3.png">
 		<img id='f2' class='fade' src="images/p2.png">
 		<img id='f1' class='fade' src="images/p1.png">
@@ -199,8 +203,61 @@
 	  
 	  <hr class="division">
 	  
+	  <div class="container" id="presentations">
+		<h3>presentations</h3>
+		<br/>
+		<h5>2021</h5><hr class='hr2'><br>
+		<div class="row ref">
+	      <div class="col-6 table-type" style="text-align:center">
+		    <a href="#">
+		    ML in biocatalysis
+		    </a>
+		  </div>
+		  <div class="col-4">Nayyereh Hatefi</div>
+		  <div class="col-2">09/30</div>
+	    </div>
+		<div class="row ref">
+	      <div class="col-6 table-type" style="text-align:center">
+		    <a href="#">
+		    Transformers beyond retrosynthesis
+		    </a>
+		  </div>
+		  <div class="col-4">Thiago Reschützegger</div>
+		  <div class="col-2">09/16</div>
+	    </div>
+		<div class="row ref">
+	      <div class="col-6 table-type" style="text-align:center">
+		    <a href="#">
+		    An Overview of Modern Physical Organic Chemistry and how ML is transforming the field
+		    </a>
+		  </div>
+		  <div class="col-4">Nicholas Hattrup</div>
+		  <div class="col-2">09/02</div>
+	    </div>
+		<div class="row ref">
+	      <div class="col-6 table-type" style="text-align:center">
+		    <a href="#">
+		    Bayesian graph methods in chemistry
+		    </a>
+		  </div>
+		  <div class="col-4">Robert Macknight</div>
+		  <div class="col-2">08/19</div>
+	    </div>
+	    <div class="row ref">
+	      <div class="col-6 table-type" style="text-align:center">
+		    <a href="#">
+		    Natural, directed, and computational evolution
+		    </a>
+		  </div>
+		  <div class="col-4">Shelby Davis</div>
+		  <div class="col-2">07/XX</div>
+	    </div>
+  	  </div>
 	  
-	  <div class="container" id="#papers">
+	  <br/><hr class="division">
+	  
+	  
+	  <div class="container" id="papers">
 		<h3>papers</h3>
 		<p style="font-size:15px;color:grey">‡ = equal authorship</p>
 	    <h5>prior to CMU</h5><hr class='hr2'><br>
