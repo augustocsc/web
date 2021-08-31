@@ -78,10 +78,10 @@
 		text-align:center;
 	  }
 	  #back-cool{
-	      opacity:0.05;
+	      opacity:0.08;
 		  position: absolute;
-		  right:75px;
-		  top:-50px;
+		  right:250px;
+		  bottom:230px;
 		  z-index: -1;
 		  position: fixed;
 		}
@@ -112,18 +112,22 @@
 
 		#f1 {
 			-webkit-animation-delay: -2s;
+			position: absolute;
 		}
 		#f2 {
 			-webkit-animation-delay: -4s;
+			position: absolute;
 		}
 		#f3 {
 			-webkit-animation-delay: -6s;
+			position: absolute;
 		}
 		#f4 {
 			-webkit-animation-delay: -8s;
+			position: absolute;
 		}
 		.fade{
-			margin-top:5px;
+			#margin-top:5px;
 			width:200px;
 		}
     </style>
@@ -131,7 +135,7 @@
   <body>
     <div class="container" style="margin-top:50px">
 	
-	  <h1 class='title'><span style="color:#cc002b">the gomes group </span>@ CMU</h1>
+	  <h1 class='title'>the <b>gomes group</b> @ CMU</h1>
       <p class="title">chemical {designers | engineers | data scientists} crunching bits into matter since January 2022</p>
 
       <div class="row">
@@ -186,15 +190,12 @@
 	  
 	  <br/>
 	  
-	  <!--<div id='back-cool'>
+	  <div id='back-cool'>
 		<img id='f4' class='fade' src="images/p4.png">
-		<br>
 		<img id='f3' class='fade' src="images/p3.png">
-		<br>
 		<img id='f2' class='fade' src="images/p2.png">
-		<br>
 		<img id='f1' class='fade' src="images/p1.png">
-	  </div>-->
+	  </div>
 	  
 	  <hr class="division">
 	  
@@ -255,9 +256,14 @@
 	  <hr class="division">
 	  
 	  <div class="row" style="margin-bottom:25px">
-        <p class="title" style="text-align:center">the gomes group @ CMU</p>
-		<br/>
-		<p class="title" style="text-align:center"><a href="#">gdgomes@andrew.cmu.edu</a></p>
+		<div class="col-12" class="float-left">
+			<center>
+			  <img src="images/gomes_group_logo.png" class="float-right" style="width:8rem;opacity:0.8">
+			</center>
+			<br/>
+		    <!--<p class="title" style="text-align:center">the gomes group @ CMU</p>-->
+			<p class="title" style="text-align:center"><a href="#">gdgomes@andrew.cmu.edu</a></p>
+		</div>
 	  </div>
 
     </div>
