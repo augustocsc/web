@@ -23,6 +23,9 @@
 	  h1{
 	    font-size:3rem;
 	  }
+	  h3{
+	    font-weight:bold;
+	  }
       .title{
         font-weight: 500;
 		#font-style: italic;
@@ -137,6 +140,16 @@
 			#margin-top:5px;
 			width:200px;
 		}
+		.photo{
+		  border:6px solid lightgrey;
+		  filter: grayscale(100%);
+		  opacity:0.5;
+		  transition: 1s;
+		}
+		.photo:hover{
+		  filter: grayscale(0%);
+		  opacity:1;
+		}
     </style>
   </head>
   <body>
@@ -149,6 +162,7 @@
 		<p id="main-links">
             {<a href="https://gabegomes.com/">gabe</a>&nbsp|
             <a href="https://github.com/gomesgroup">code</a>&nbsp|
+			<a href="#positions">positions</a>&nbsp|
 			<a href="#presentations">presentations</a>&nbsp|
             <a href="#papers">papers</a>}
         </p>
@@ -156,55 +170,78 @@
 	  
 	  <hr class="division">
 	  
-	  <div class="row">
-	    <div class="col-4 table-type" style="text-align:center">research</div>
-		<div class="col-8">{machine learning | catalysis | reaction design | physical organic chemistry | organic materials}</div>
-	  </div>
-	  
-	  <br/>
-	  
-	  <div class="row">
-	    <div class="col-4 table-type" style="text-align:center">principal investigator</div>
-		<div class="col-8">{Gabe Gomes [<a href='#'>@gabepgomes</a>]}</div>
-	  </div>
-	  
-	  <br/>
-	  
-	  <div class="row">
-	    <div class="col-4 table-type" style="text-align:center">postdocs</div>
-		<div class="col-8">{<a href='#'>you</a>!}</div>
-	  </div>
-	  
-	  <br/>
-	  
-	  <div class="row">
-	    <div class="col-4 table-type" style="text-align:center">phds</div>
-		<div class="col-8">{Nicholas Hattrup [<a href='#'>@</a>] | Robert Macknight [<a href='#'>@</a>] | and <a href='#'>you</a>!}</div>
-	  </div>
-	  
-	  <br/>
-	  
-	  <div class="row">
-	    <div class="col-4 table-type" style="text-align:center">undergrads</div>
-		<div class="col-8">...</div>
+	  <div class="container">
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">research</div>
+			<div class="col-8">{machine learning | catalysis | reaction design | physical organic chemistry | organic materials}</div>
+		  </div>
+		  
+		  <br/>
+		  
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">values</div>
+			<div class="col-8">{... | ...}</div>
+		  </div>
+		  
+		  <br/>
+		  
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">principal investigator</div>
+			<div class="col-8">{Gabe Gomes [<a href='#'>@gabepgomes</a>]}</div>
+		  </div>
+		  
+		  <br/>
+		  
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">postdocs</div>
+			<div class="col-8">{<a href='#'>you</a>!}</div>
+		  </div>
+		  
+		  <br/>
+		  
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">phds</div>
+			<div class="col-8">{Nicholas Hattrup [<a href='#'>@</a>] | Robert Macknight [<a href='#'>@</a>] | and <a href='#'>you</a>!}</div>
+		  </div>
+		  
+		  <br/>
+		  
+		  <div class="row">
+			<div class="col-4 table-type" style="text-align:center">undergrads</div>
+			<div class="col-8">...</div>
+		  </div>
 	  </div>
 	  
 	  <br/>
 		
 	  <div class="row">
-        <img src="https://i.kym-cdn.com/entries/icons/original/000/032/827/elephant.jpg" class="img-fluid rounded mx-auto d-block" id="main-img">
+        <img src="https://i.kym-cdn.com/entries/icons/original/000/032/827/elephant.jpg" class="img-fluid mx-auto d-block shadow" id="main-img">
       </div>
 	  
-	  <br/>
+	  <br/><hr class="division">
 	  
-	  <div id='back-cool'>
-	    <img id='f4' class='fade' src="images/p4.png">
-		<img id='f3' class='fade' src="images/p3.png">
-		<img id='f2' class='fade' src="images/p2.png">
-		<img id='f1' class='fade' src="images/p1.png">
-	  </div>
+	  <div class="container" id="">
+		<h3>gabe</h3>
+		<br/>
+		<div class='row'>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<center><img src='images/gabe-photo.jpg' class="photo rounded-circle img-fluid mx-auto d-block shadow"></center>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+			    <br/><br/>
+				<p>His research rests at the interface between machine learning and organic chemistry, where he aims to develop new platforms for autonomous reaction discovery, with emphasis on catalysis. In 2020, Gabe received a Banting Postdoctoral Fellowship to pursue his work titled "Designing Catalysts with Artificial Intelligence." In January 2022, Gabe will start his independent career at Carnegie Mellon University, in the Departments of Chemistry and Chemical Engineering. The Gomes Group research program will focus on the development of new chemical reactions, catalysts, and materials using and developing state-of-the-art machine learning and automated synthesis.</p>
+			</div>
+		</div>
+  	  </div>
 	  
-	  <hr class="division">
+	  <br/><hr class="division">
+	  
+	  <div class="container" id="positions">
+		<h3>positions</h3>
+		<br/>
+  	  </div>
+	  
+	  <br/><hr class="division">
 	  
 	  <div class="container" id="presentations">
 		<h3>presentations</h3>
@@ -530,9 +567,14 @@
 	    </div>
   	  </div>
 	  
-	  <br/>
+	  <br/><hr class="division">
 	  
-	  <hr class="division">
+	  <div id='back-cool'>
+	    <img id='f4' class='fade rounded-circle shadow' src="images/p4.png">
+		<img id='f3' class='fade rounded-circle shadow' src="images/p3.png">
+		<img id='f2' class='fade rounded-circle shadow' src="images/p2.png">
+		<img id='f1' class='fade rounded-circle shadow' src="images/p1.png">
+	  </div>
 	  
 	  <div class="row" style="margin-bottom:25px">
 		<div class="col-12" class="float-left">
