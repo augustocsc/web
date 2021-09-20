@@ -224,7 +224,7 @@
  }
 
  #white-link {
-	color: white !important;
+ 	color: white !important;
  }
 
  .btn-primary {
@@ -245,3 +245,33 @@
  .justify-content-center>div {
  	text-align: center;
  }
+
+ ::selection, p::selection{
+ 	background: rgba(199, 8, 49, 0.548) !important
+ }
+
+ .darkmode--activated ::selection {
+	 background: lightgrey !important;
+ }
+
+ /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #cc002b rgba(245, 245, 245, 0);
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(245, 245, 245, 0);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cc002b;
+    border-radius: 0px;
+    border: 3px solid rgba(245, 245, 245, 0);
+  }
