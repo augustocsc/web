@@ -216,15 +216,18 @@
  }
 
  .darkmode--activated a {
- 	color: #cc002b;
+ 	color: #cc002b !important;
  }
 
  .darkmode-toggle {
  	border: 3px solid grey !important;
  }
 
+ #white-link {
+	color: white !important;
+ }
+
  .btn-primary {
- 	color: white !important;
  	border: 3px solid lightgray;
  	background-color: #cc002b;
  }
