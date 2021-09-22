@@ -188,7 +188,7 @@
 
  .photo,
  .photo-paper,
- .photo-latest-papers {
+ .photo-latest-publications {
  	background-color: lightgrey;
  	filter: grayscale(100%);
  	opacity: 0.5;
@@ -230,13 +230,17 @@
 
  .photo:hover,
  .photo-paper:hover,
- .photo-latest-papers:hover {
+ .photo-latest-publications:hover {
  	filter: grayscale(0%);
  	opacity: 1;
  }
 
  .darkmode--activated a {
  	color: #cc002b !important;
+ }
+ 
+ a{
+	 isolation: isolate !important;
  }
 
  .darkmode-toggle {
