@@ -90,6 +90,22 @@
 
  }
 
+ .csl-entry {
+	margin-bottom: 10px;
+	text-align: justify;
+	padding: 10px 0px;
+	border-bottom: 1px solid lightgrey !important;
+	text-align: left;
+
+}
+
+.last{
+	
+	border-bottom: none !important
+
+}
+
+
  .ref>div {
  	margin-bottom: 5px;
  }
